@@ -19,5 +19,6 @@ public class ExamService {
 	public void updateStudentMarks(String id, int marks) {
 		studentRepo.updateStudentMarks(id, marks);
 	} 
+	// now used Autowired 
 	
 }
